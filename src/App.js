@@ -16,7 +16,7 @@ function App() {
   
 
   return (
-    <div className='flex flex-col bg-[radial-gradient(#1D2843,#111827)] min-h-screen overflow-y-scroll overflow-x-hidden'>
+    <div className='flex flex-col bg-[radial-gradient(#1D2843,#111827)] min-h-screen'>
       <Navbar isLoggedIn = {isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
 
       <div className='flex flex-wrap text-white w-11/12 max-w-[1180px] mx-auto justify-between lg:justify-center pt-4 items-center lg:gap-[11rem] pb-8 text-sm font-medium'>
