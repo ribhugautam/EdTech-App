@@ -47,7 +47,7 @@ function Card (props) {
 
 
     return (
-        <div className="bg-white/20 backdrop-blur-sm  rounded-md max-w-[350px] p-4 flex flex-col  text-white gap-4">
+        <div className="bg-white/20 backdrop-blur-sm rounded-md max-w-[350px] p-4 flex flex-col  text-white gap-4">
             <div className="relative">
                 <img src={course.image.url} alt={course.image.alt} className="rounded-md"/>
                 <div className="absolute -bottom-4 right-4">

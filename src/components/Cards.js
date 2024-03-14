@@ -25,10 +25,10 @@ function Cards (props) {
     }
 
     return (
-        <div className="flex flex-wrap justify-center items-start gap-8 max-w-[1180px] mx-auto p-4">
+        <div className="flex flex-wrap justify-center items-start gap-16 max-w-[1180px] mx-auto py-4">
             {
-                getData().map( course => {
-                    return <Card likedCourses={likedCourses} setLikedCourses={setLikedCourses} course = {course}/>
+                getData().map( (course, index) => {
+                    return <Card key={index} likedCourses={likedCourses} setLikedCourses={setLikedCourses} course = {course}/>
                 })
             }
         </div>
