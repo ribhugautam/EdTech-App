@@ -6,7 +6,7 @@ function Navbar (props) {
   let setIsLoggedIn = props.setIsLoggedIn;
     return(
         <div>
-        <nav className='flex justify-between max-w-[1180px] w-11/12 mx-auto gap-8 items-center text-white py-4'>
+        <nav className='flex justify-between pb-12 max-w-[1180px] w-11/12 mx-auto gap-8 items-center text-white py-4'>
           <Link to = '/'>
             <h1 className='font-extrabold text-center p-1 rounded-md px-2 border-4 '>Tech Buddies</h1>
           </Link>
