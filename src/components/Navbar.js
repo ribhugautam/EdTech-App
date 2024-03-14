@@ -6,10 +6,18 @@ function Navbar (props) {
   let setIsLoggedIn = props.setIsLoggedIn;
     return(
         <div>
-        <nav className='flex sm:flex md:flex lg:flex justify-between max-w-[1180px] w-11/12 mx-auto gap-8 items-center text-white py-4'>
+        <nav className='flex justify-between max-w-[1180px] w-11/12 mx-auto gap-8 items-center text-white py-4'>
           <Link to = '/'>
             <h1 className='font-extrabold text-center p-1 rounded-md px-2 border-4 '>Tech Buddies</h1>
           </Link>
+
+
+        <div className='hidden md:flex lg:flex flex-wrap text-white mx-auto justify-center items-center gap-8 text-sm font-medium'>
+          <Link  className="hover:bg-white/40 transition-all duration-200 text-center p-2 px-3 rounded-md" to="/">Home</Link>
+          <Link  className="hover:bg-white/40 transition-all duration-200 text-center p-2 px-3 rounded-md" to="/about">About</Link>
+          <Link  className="hover:bg-white/40 transition-all duration-200 text-center p-2 px-3 rounded-md" to="/contact">Contact</Link>
+        </div>
+
 
         <div className='flex justify-between items-center gap-2 text-sm font-medium'>
           { !isLoggedIn &&

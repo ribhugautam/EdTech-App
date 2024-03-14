@@ -18,13 +18,7 @@ function App() {
   return (
     <div className='flex flex-col bg-[radial-gradient(#1D2843,#111827)] min-h-screen'>
       <Navbar isLoggedIn = {isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
-
-      <div className='flex flex-wrap text-white w-11/12 max-w-[1180px] mx-auto justify-between lg:justify-center pt-4 items-center lg:gap-[11rem] pb-8 text-sm font-medium'>
-            <Link  className="hover:bg-white/40 bg-slate-400/50 transition-all duration-200 text-center p-2 px-3 rounded-md" to="/">Home</Link>
-            <Link  className="hover:bg-white/40 bg-slate-400/50 transition-all duration-200 text-center p-2 px-3 rounded-md" to="/about">About</Link>
-            <Link  className="hover:bg-white/40 bg-slate-400/50 transition-all duration-200 text-center p-2 px-3 rounded-md" to="/contact">Contact</Link>
-        </div>
-
+      
       <Routes>
 
         <Route path='/' element = {<Home isLoggedIn = {isLoggedIn}/>}/>
