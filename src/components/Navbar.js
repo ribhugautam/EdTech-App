@@ -11,12 +11,6 @@ function Navbar (props) {
             <h1 className='font-extrabold text-center p-1 rounded-md px-2 border-4 '>Tech Buddies</h1>
           </Link>
 
-        <div className='hidden sm:flex md:flex lg:flex text-center justify-center items-center sm:gap-6 md:gap-6 lg:gap-6 text-sm font-medium'>
-            <Link  className="hover:bg-slate-400/50 w-full transition-all duration-200 text-center p-2 px-2 rounded-md" to="/">Home</Link>
-            <Link  className="hover:bg-slate-400/50 w-full transition-all duration-200 text-center p-2 px-2 rounded-md" to="/about">About</Link>
-            <Link  className="hover:bg-slate-400/50 w-full transition-all duration-200 text-center p-2 px-2 rounded-md" to="/contact">Contact</Link>
-        </div>
-
         <div className='flex justify-between items-center gap-2 text-sm font-medium'>
           { !isLoggedIn &&
           <Link to="/Login">
