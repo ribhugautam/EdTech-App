@@ -30,13 +30,13 @@ const Footer = () => {
             <h3 className="text-white font-bold mb-4">Social Media</h3>
             <ul className="list-none text-gray-300">
               <li className="mb-2">
-                <a href="https://www.facebook.com/techbuddies">Facebook</a>
+                <a href="https://www.facebook.com/">Facebook</a>
               </li>
               <li className="mb-2">
-                <a href="https://www.twitter.com/techbuddies">Twitter</a>
+                <a href="https://www.twitter.com/">Twitter</a>
               </li>
               <li className="mb-2">
-                <a href="https://www.instagram.com/techbuddies">Instagram</a>
+                <a href="https://www.instagram.com/ribhugautam">Instagram</a>
               </li>
             </ul>
           </div>
@@ -44,7 +44,7 @@ const Footer = () => {
             <h3 className="text-white font-bold mb-4">Contact Us</h3>
             <ul className="list-none text-gray-300">
               <li className="mb-2">
-                Email: <a href="mailto:hello@techbuddies.com">hello@techbuddies.com</a>
+                Email: <a href="mailto:gautamribhu@gmail.com">hello@techbuddies.com</a>
               </li>
               <li className="mb-2">
                 Phone: <a href="tel:+1234567890">+1 (234) 567-8900</a>
